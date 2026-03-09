@@ -1,0 +1,41 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/.env.*
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###
+
+###> symfony/asset-mapper ###
+/public/assets/
+/assets/vendor/
+###< symfony/asset-mapper ###
+
+# IDE / Editores
+.vscode/
+.idea/
+
+# Base de datos SQLite (datos personales locales)
+*.sqlite
+*.db
+*.mysql
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Lando (entorno local — no va al repo)
+.lando.yml
+.lando/
+
+# Uploads de usuarios
+/public/uploads/
